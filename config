@@ -1,0 +1,42 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+  cycle_next = <Primary>m
+  cycle_prev = <Primary>f
+  go_next = <Primary><Shift>Page_Up
+  go_prev = <Primary><Shift>Page_Down
+  split_vert = <Primary><Shift>e
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      size = 900, 600
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_darkness = 0.76
+    cursor_color = "#aaaaaa"
+    font = Ricty Diminished for Powerline 9
+    foreground_color = "#ffffff"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#555753:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_system_font = False
+  [[transparent]]
+    allow_bold = False
+    background_darkness = 0.67
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Ricty Diminished for Powerline 9
+    foreground_color = "#ffffff"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#555753:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    use_system_font = False
+  [[white]]
+    background_color = "#ffffff"
+    cursor_color = "#aaaaaa"
+    font = Ricty Diminished for Powerline 9
+    foreground_color = "#000000"
+    use_system_font = False
